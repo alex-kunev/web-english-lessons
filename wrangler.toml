@@ -1,5 +1,14 @@
 name = "website-english"
 compatibility_date = "2025-04-12"
+main = "_worker.js"
 
 [assets]
 directory = "."
+
+# Enable observability features
+[observability]
+enabled = true
+
+# Logpush configuration (configure in Cloudflare dashboard)
+# [logpush]
+# enabled = true
