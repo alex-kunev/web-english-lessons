@@ -1,0 +1,12 @@
+# robots.txt for Научи Английски
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Disallow crawling of assets/config files (optional)
+Disallow: /wrangler.toml
+Disallow: /_worker.js
+Disallow: /.git/
